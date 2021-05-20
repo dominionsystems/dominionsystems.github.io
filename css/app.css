@@ -1,0 +1,57 @@
+
+body {
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #5d5e5d;
+  text-align: left;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  margin: auto;
+  padding: 10px;
+}
+
+.img-container {
+  width: 100%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.img-responsive {
+  margin: 0 auto;
+  height: 100%;
+}
+
+.msg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.msg-container > h1 {
+  text-align: center;
+}
+
+.msg-container > p {
+  text-align: center;
+}
+
+h2, p {
+  margin: 0 auto;
+}
